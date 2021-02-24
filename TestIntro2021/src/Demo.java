@@ -11,6 +11,7 @@ public class Demo {
 	WebDriver driver = new ChromeDriver();
 	driver.get("http://google.com");
 	System.out.println(driver.getTitle());
+	System.out.println("googletitle");
 	}
 	
 
